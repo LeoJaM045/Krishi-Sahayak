@@ -1,0 +1,28 @@
+{
+  "crops": [
+    {"name_punjabi": "ਕਣਕ", "name_english": "wheat", "synonyms": ["ਕਣਕ", "wheat", "ਕਣਕ ਦੀ"]},
+    {"name_punjabi": "ਝੋਨਾ", "name_english": "rice", "synonyms": ["ਝੋਨਾ", "ਝੋਨੇ", "ਚੌਲ", "paddy", "rice", "ਜੀਰੀ"]},
+    {"name_punjabi": "ਮੱਕੀ", "name_english": "maize", "synonyms": ["ਮੱਕੀ", "ਛੱਲੀ", "maize", "corn"]},
+    {"name_punjabi": "ਕਪਾਹ", "name_english": "cotton", "synonyms": ["ਕਪਾਹ", "ਨਰਮਾ", "ਨਰਮੇ", "cotton"]},
+    {"name_punjabi": "ਸਰ੍ਹੋਂ", "name_english": "mustard", "synonyms": ["ਸਰ੍ਹੋਂ", "mustard", "sarson"]},
+    {"name_punjabi": "ਆਲੂ", "name_english": "potato", "synonyms": ["ਆਲੂ", "ਆਲੂਆਂ", "potato", "potatoes"]},
+    {"name_punjabi": "ਗੰਨਾ", "name_english": "sugarcane", "synonyms": ["ਗੰਨਾ", "ਗੰਨੇ", "ਕਮਾਦ", "sugarcane"]},
+    {"name_punjabi": "ਦਾਲਾਂ", "name_english": "pulses", "synonyms": ["ਦਾਲ", "ਦਾਲਾਂ", "pulses", "ਛੋਲੇ", "ਮੂੰਗੀ"]},
+    {"name_punjabi": "ਸਬਜ਼ੀਆਂ", "name_english": "vegetables", "synonyms": ["ਸਬਜ਼ੀਆਂ", "ਸਬਜ਼ੀ", "vegetables"]}
+  ],
+  "symptoms": [
+    {"name_punjabi": "ਪੱਤੇ ਪੀਲੇ", "name_english": "yellow leaves", "synonyms": ["ਪੀਲੇ", "yellow", "ਪੀਲਾਪਣ"]},
+    {"name_punjabi": "ਪੱਤੇ ਸੁੱਕਣੇ", "name_english": "drying leaves", "synonyms": ["ਸੁੱਕ", "ਸੁੱਕਣੇ", "dry", "drying"]},
+    {"name_punjabi": "ਕੀੜੇ", "name_english": "insects", "synonyms": ["ਕੀੜੇ", "ਸੁੰਡੀ", "insects", "pest", "pests", "ਕੀੜਾ"]},
+    {"name_punjabi": "ਫੰਗਸ", "name_english": "fungus", "synonyms": ["ਫੰਗਸ", "ਉੱਲੀ", "fungus"]},
+    {"name_punjabi": "ਜੜ੍ਹਾਂ ਸੜਨਾ", "name_english": "root rot", "synonyms": ["ਜੜ੍ਹਾਂ ਸੜਨਾ", "ਜੜ੍ਹ ਖਰਾਬ", "root rot"]},
+    {"name_punjabi": "ਧੱਬੇ", "name_english": "spots", "synonyms": ["ਧੱਬੇ", "ਦਾਗ", "spots", "blight"]},
+    {"name_punjabi": "ਬਿਮਾਰੀ", "name_english": "disease", "synonyms": ["ਬਿਮਾਰੀ", "ਰੋਗ", "disease"]}
+  ],
+  "fertilizers": [
+    {"name_punjabi": "ਯੂਰੀਆ", "name_english": "urea", "synonyms": ["ਯੂਰੀਆ", "urea", "urea fertilizer"]},
+    {"name_punjabi": "ਡੀ ਏ ਪੀ", "name_english": "dap", "synonyms": ["ਡੀ ਏ ਪੀ", "dap", "ਡੀਏਪੀ"]},
+    {"name_punjabi": "ਐਨ ਪੀ ਕੇ", "name_english": "npk", "synonyms": ["ਐਨ ਪੀ ਕੇ", "npk", "12:32:16"]},
+    {"name_punjabi": "ਪੋਟਾਸ਼", "name_english": "potash", "synonyms": ["ਪੋਟਾਸ਼", "potash", "mop"]}
+  ]
+}

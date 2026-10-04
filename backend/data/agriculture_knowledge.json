@@ -1,0 +1,89 @@
+{
+  "crops": {
+    "ਕਣਕ": {
+      "name_punjabi": "ਕਣਕ",
+      "name_english": "Wheat",
+      "sowing_period": "ਅਕਤੂਬਰ ਦੇ ਅਖੀਰ ਤੋਂ ਨਵੰਬਰ ਦੇ ਅਖੀਰ ਤੱਕ (Late Oct to Late Nov)",
+      "harvesting_period": "ਅਪ੍ਰੈਲ (April)",
+      "soil_requirements": "ਚੰਗੀ ਨਿਕਾਸੀ ਵਾਲੀ ਦਰਮਿਆਨੀ ਤੋਂ ਭਾਰੀ ਮਿੱਟੀ। (Well-drained medium to heavy soil)",
+      "irrigation": "ਕਣਕ ਨੂੰ 4-6 ਪਾਣੀਆਂ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਪਹਿਲਾ ਪਾਣੀ ਬਿਜਾਈ ਤੋਂ 21-25 ਦਿਨਾਂ ਬਾਅਦ (CRI ਸਟੇਜ) ਦੇਣਾ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ। (Needs 4-6 irrigations. First irrigation is critical at 21-25 days)",
+      "fertilizer": "ਮਿੱਟੀ ਦੀ ਪਰਖ ਅਨੁਸਾਰ ਖਾਦ ਪਾਓ। ਆਮ ਤੌਰ 'ਤੇ 110 ਕਿਲੋ ਯੂਰੀਆ, 55 ਕਿਲੋ DAP ਪ੍ਰਤੀ ਏਕੜ। (Apply as per soil test. Generally 110kg Urea, 55kg DAP per acre)",
+      "common_pests": ["ਚੇਪਾ (Aphids)", "ਸੈਨਿਕ ਸੁੰਡੀ (Armyworm)", "ਸਿਉਂਕ (Termites)"],
+      "common_diseases": ["ਪੀਲੀ ਕੁੰਗੀ (Yellow Rust)", "ਕਾਂਗਿਆਰੀ (Smut)", "ਕਰਨਾਲ ਬੰਟ (Karnal Bunt)"],
+      "basic_prevention": "ਬੀਜ ਦੀ ਸੋਧ ਕਰਕੇ ਬੀਜੋ। ਪੀਲੀ ਕੁੰਗੀ ਦੀ ਰੋਕਥਾਮ ਲਈ ਸਿਫਾਰਸ਼ ਉੱਲੀਨਾਸ਼ਕ ਦੀ ਵਰਤੋਂ ਕਰੋ। (Treat seed before sowing. Use recommended fungicide for yellow rust.)",
+      "general_farming_practices": "ਨਦੀਨਾਂ ਦੀ ਰੋਕਥਾਮ ਸਮੇਂ ਸਿਰ ਕਰੋ। (Control weeds timely.)"
+    },
+    "ਝੋਨਾ": {
+      "name_punjabi": "ਝੋਨਾ",
+      "name_english": "Rice",
+      "sowing_period": "ਪਨੀਰੀ: ਮਈ-ਜੂਨ, ਲਵਾਈ: ਜੂਨ-ਜੁਲਾਈ (Nursery: May-June, Transplanting: June-July)",
+      "harvesting_period": "ਅਕਤੂਬਰ-ਨਵੰਬਰ (Oct-Nov)",
+      "soil_requirements": "ਭਾਰੀ ਮਿੱਟੀ ਜੋ ਪਾਣੀ ਨੂੰ ਰੋਕ ਸਕੇ। (Heavy soil with good water retention.)",
+      "irrigation": "ਪਹਿਲੇ 15 ਦਿਨ ਪਾਣੀ ਖੜ੍ਹਾ ਰੱਖੋ, ਫਿਰ ਜ਼ਮੀਨ ਸੁੱਕਣ 'ਤੇ ਪਾਣੀ ਦਿਓ। (Keep water standing for first 15 days, then irrigate when soil dries.)",
+      "fertilizer": "ਲਗਭਗ 90 ਕਿਲੋ ਯੂਰੀਆ, 27 ਕਿਲੋ DAP ਪ੍ਰਤੀ ਏਕੜ (90kg Urea, 27kg DAP per acre)",
+      "common_pests": ["ਪੱਤਾ ਲਪੇਟ ਸੁੰਡੀ (Leaf Folder)", "ਗੋਭ ਦੀ ਸੁੰਡੀ (Stem Borer)", "ਭੂਰਾ ਟਿੱਡਾ (Brown Plant Hopper)"],
+      "common_diseases": ["ਝੁਲਸ ਰੋਗ (Bacterial Blight)", "ਸ਼ੀਥ ਬਲਾਈਟ (Sheath Blight)"],
+      "basic_prevention": "ਸਿਫਾਰਸ਼ ਕੀਤੀਆਂ ਕਿਸਮਾਂ ਹੀ ਬੀਜੋ। ਲੋੜ ਪੈਣ 'ਤੇ ਹੀ ਸਪਰੇਅ ਕਰੋ। (Sow recommended varieties. Spray only when necessary.)",
+      "general_farming_practices": "ਝੋਨੇ ਦੀ ਸਿੱਧੀ ਬਿਜਾਈ (DSR) ਨਾਲ ਪਾਣੀ ਦੀ ਬੱਚਤ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। (Direct Seeded Rice can save water.)"
+    },
+    "ਮੱਕੀ": {
+      "name_punjabi": "ਮੱਕੀ",
+      "name_english": "Maize",
+      "sowing_period": "ਬਸੰਤ: ਫਰਵਰੀ, ਸਾਉਣੀ: ਮਈ-ਜੂਨ (Spring: Feb, Kharif: May-June)",
+      "harvesting_period": "ਸਤੰਬਰ-ਅਕਤੂਬਰ (Sept-Oct)",
+      "soil_requirements": "ਚੰਗੀ ਨਿਕਾਸੀ ਵਾਲੀ ਮੈਰਾ ਮਿੱਟੀ (Well drained loamy soil)",
+      "irrigation": "ਮੌਸਮ ਅਨੁਸਾਰ 4-6 ਪਾਣੀ (4-6 irrigations depending on weather)",
+      "fertilizer": "110 ਕਿਲੋ ਯੂਰੀਆ, 55 ਕਿਲੋ DAP ਪ੍ਰਤੀ ਏਕੜ (110kg Urea, 55kg DAP per acre)",
+      "common_pests": ["ਫਾਲ ਆਰਮੀਵਰਮ (Fall Armyworm)", "ਮੱਕੀ ਦਾ ਗੜੂੰਆਂ (Maize Borer)"],
+      "common_diseases": ["ਪੱਤਿਆਂ ਦਾ ਝੁਲਸ ਰੋਗ (Leaf Blight)", "ਟਾਂਡਾ ਗਲਣਾ (Stalk Rot)"],
+      "basic_prevention": "ਫਾਲ ਆਰਮੀਵਰਮ ਲਈ ਖੇਤ ਦਾ ਲਗਾਤਾਰ ਨਿਰੀਖਣ ਕਰੋ। (Regularly monitor for Fall Armyworm.)",
+      "general_farming_practices": "ਵੱਟਾਂ 'ਤੇ ਬਿਜਾਈ ਕਰੋ ਤਾਂ ਜੋ ਪਾਣੀ ਦੀ ਬੱਚਤ ਹੋਵੇ। (Sow on ridges to save water.)"
+    },
+    "ਕਪਾਹ": {
+      "name_punjabi": "ਕਪਾਹ (ਨਰਮਾ)",
+      "name_english": "Cotton",
+      "sowing_period": "ਅਪ੍ਰੈਲ - ਮਈ (April - May)",
+      "harvesting_period": "ਸਤੰਬਰ - ਨਵੰਬਰ (September - November)",
+      "soil_requirements": "ਡੂੰਘੀ ਅਤੇ ਚੰਗੀ ਨਿਕਾਸੀ ਵਾਲੀ ਮਿੱਟੀ (Deep and well-drained soil)",
+      "irrigation": "ਪਹਿਲਾ ਪਾਣੀ 4-6 ਹਫ਼ਤਿਆਂ ਬਾਅਦ, ਫਿਰ ਲੋੜ ਅਨੁਸਾਰ (First irrigation after 4-6 weeks, then as needed)",
+      "fertilizer": "90 ਕਿਲੋ ਯੂਰੀਆ, 27 ਕਿਲੋ DAP ਪ੍ਰਤੀ ਏਕੜ (90kg Urea, 27kg DAP per acre)",
+      "common_pests": ["ਚਿੱਟੀ ਮੱਖੀ (Whitefly)", "ਗੁਲਾਬੀ ਸੁੰਡੀ (Pink Bollworm)", "ਹਰਾ ਤੇਲਾ (Jassid)"],
+      "common_diseases": ["ਪੱਤਾ ਮਰੋੜ ਵਿਸ਼ਾਣੂ (Cotton Leaf Curl Virus)"],
+      "basic_prevention": "ਸਿਫਾਰਸ਼ ਬੀਟੀ (Bt) ਕਿਸਮਾਂ ਬੀਜੋ। ਨਦੀਨਾਂ ਦੀ ਰੋਕਥਾਮ ਜ਼ਰੂਰੀ ਹੈ। (Sow recommended Bt varieties. Weed control is essential.)",
+      "general_farming_practices": "ਖੇਤ ਵਿੱਚੋਂ ਪੁਰਾਣੀਆਂ ਛਿਟੀਆਂ ਖਤਮ ਕਰੋ ਤਾਂ ਜੋ ਗੁਲਾਬੀ ਸੁੰਡੀ ਨਾ ਵਧੇ। (Destroy old cotton stalks to prevent pink bollworm.)"
+    },
+    "ਸਰ੍ਹੋਂ": {
+      "name_punjabi": "ਸਰ੍ਹੋਂ",
+      "name_english": "Mustard",
+      "sowing_period": "ਅਕਤੂਬਰ ਤੋਂ ਨਵੰਬਰ (October to November)",
+      "harvesting_period": "ਮਾਰਚ (March)",
+      "soil_requirements": "ਹਲਕੀ ਤੋਂ ਭਾਰੀ ਮਿੱਟੀ (Light to heavy soil)",
+      "irrigation": "1 ਜਾਂ 2 ਪਾਣੀਆਂ ਦੀ ਲੋੜ (Needs 1 or 2 irrigations)",
+      "fertilizer": "45-90 ਕਿਲੋ ਯੂਰੀਆ, 33-55 ਕਿਲੋ DAP ਪ੍ਰਤੀ ਏਕੜ (45-90kg Urea, 33-55kg DAP/acre)",
+      "common_pests": ["ਚੇਪਾ (Mustard Aphid)"],
+      "common_diseases": ["ਤਣਾ ਗਲਣਾ (Stem Rot)", "ਚਿੱਟੀ ਕੁੰਗੀ (White Rust)"],
+      "basic_prevention": "ਸਹੀ ਸਮੇਂ ਤੇ ਬਿਜਾਈ ਕਰਨ ਨਾਲ ਚੇਪੇ ਦਾ ਹਮਲਾ ਘੱਟ ਹੁੰਦਾ ਹੈ। (Timely sowing reduces aphid attack.)",
+      "general_farming_practices": "ਬਿਜਾਈ ਤੋਂ ਪਹਿਲਾਂ ਮਿੱਟੀ ਵਿੱਚ ਗੰਧਕ (Sulphur) ਦੀ ਵਰਤੋਂ ਫਾਇਦੇਮੰਦ ਹੈ। (Use of Sulphur in soil before sowing is beneficial.)"
+    },
+    "ਆਲੂ": {
+       "name_punjabi": "ਆਲੂ",
+       "name_english": "Potato",
+       "sowing_period": "ਅਕਤੂਬਰ ਦੇ ਪਹਿਲੇ ਹਫ਼ਤੇ ਤੋਂ ਅਖੀਰ ਤੱਕ (First week to end of October)",
+       "harvesting_period": "ਜਨਵਰੀ ਤੋਂ ਫਰਵਰੀ (January to February)",
+       "soil_requirements": "ਰੇਤਲੀ ਮੈਰਾ ਮਿੱਟੀ (Sandy loam soil)",
+       "irrigation": "ਹਲਕਾ ਅਤੇ ਲਗਾਤਾਰ ਪਾਣੀ (Light and frequent irrigation)",
+       "fertilizer": "165 ਕਿਲੋ ਯੂਰੀਆ, 155 ਕਿਲੋ ਸੁਪਰ ਫਾਸਫੇਟ, 40 ਕਿਲੋ ਮਿਊਰੇਟ ਆਫ ਪੋਟਾਸ਼ ਪ੍ਰਤੀ ਏਕੜ",
+       "common_pests": ["ਤੇਲਾ (Aphids)"],
+       "common_diseases": ["ਪਿਛੇਤਾ ਝੁਲਸ ਰੋਗ (Late Blight)", "ਅਗੇਤਾ ਝੁਲਸ ਰੋਗ (Early Blight)"],
+       "basic_prevention": "ਬੀਜ ਦੀ ਸੋਧ ਕਰੋ ਅਤੇ ਕੋਰਾ ਪੈਣ ਤੋਂ ਬਚਾਅ ਲਈ ਹਲਕਾ ਪਾਣੀ ਲਗਾਓ।",
+       "general_farming_practices": "ਨਰੋਏ ਅਤੇ ਸਿਫਾਰਸ਼ ਕੀਤੇ ਬੀਜ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+    }
+  },
+  "general_faqs": {
+    "weather": "ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਮੌਸਮ ਵਿਭਾਗ ਦੀ ਤਾਜ਼ਾ ਰਿਪੋਰਟ ਦੇਖੋ। (Please check the latest weather report.)",
+    "mandi_price": "ਮੰਡੀ ਦੇ ਭਾਅ ਰੋਜ਼ਾਨਾ ਬਦਲਦੇ ਹਨ। ਤਾਜ਼ਾ ਭਾਅ ਲਈ ਮੰਡੀ ਬੋਰਡ ਦੀ ਐਪ ਜਾਂ ਵੈੱਬਸਾਈਟ ਦੇਖੋ। (Prices change daily. Check Mandi Board app/website.)",
+    "government_scheme": "ਖੇਤੀਬਾੜੀ ਸਕੀਮਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲਈ ਆਪਣੇ ਨੇੜੇ ਦੇ ਖੇਤੀਬਾੜੀ ਦਫ਼ਤਰ ਜਾਂ ਪੰਜਾਬ ਐਗਰੀਕਲਚਰਲ ਯੂਨੀਵਰਸਿਟੀ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। (Contact local Agriculture Office or PAU.)",
+    "unknown": "ਮਾਫ਼ ਕਰਨਾ, ਮੈਂ ਤੁਹਾਡਾ ਸਵਾਲ ਪੂਰੀ ਤਰ੍ਹਾਂ ਨਹੀਂ ਸਮਝ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਫਸਲ ਦਾ ਨਾਮ ਅਤੇ ਸਮੱਸਿਆ ਬਾਰੇ ਥੋੜ੍ਹੀ ਹੋਰ ਜਾਣਕਾਰੀ ਦਿਓ। (Sorry, I couldn't fully understand. Please provide crop name and more info.)"
+  },
+  "disclaimer": "ਇਹ ਚੈਟਬੋਟ ਆਮ ਖੇਤੀਬਾੜੀ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। ਕੀਟਨਾਸ਼ਕ, ਦਵਾਈ ਜਾਂ ਖਾਦ ਦੀ ਵਰਤੋਂ ਤੋਂ ਪਹਿਲਾਂ ਸਥਾਨਕ ਖੇਤੀਬਾੜੀ ਮਾਹਿਰ, KVK ਜਾਂ ਸਰਕਾਰੀ ਖੇਤੀਬਾੜੀ ਅਧਿਕਾਰੀ ਦੀ ਸਲਾਹ ਲਓ। (This chatbot provides general agricultural information. For pesticide, fertilizer, or disease-treatment decisions, consult a qualified local agricultural expert, KVK, or government agriculture officer.)"
+}

@@ -1,0 +1,424 @@
+text,intent
+ਕਣਕ ਦੀ ਬਿਜਾਈ ਕਦੋਂ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?,sowing_time
+ਕਣਕ ਦਾ ਬੀਜਣ ਦਾ ਸਹੀ ਸਮਾਂ ਕੀ ਹੈ?,sowing_time
+ਕਣਕ ਕਦੋਂ ਬੀਜੀਏ?,sowing_time
+ਝੋਨਾ ਕਦੋਂ ਲਾਈਏ?,sowing_time
+ਝੋਨੇ ਦੀ ਪਨੀਰੀ ਕਦੋਂ ਬੀਜੀਏ?,sowing_time
+ਮੱਕੀ ਬੀਜਣ ਦਾ ਸਹੀ ਮਹੀਨਾ ਕਿਹੜਾ ਹੈ?,sowing_time
+ਆਲੂ ਦੀ ਬਿਜਾਈ ਕਦੋਂ ਹੁੰਦੀ ਹੈ?,sowing_time
+ਸਰ੍ਹੋਂ ਦੀ ਬਿਜਾਈ ਦਾ ਸਮਾਂ ਦੱਸੋ?,sowing_time
+ਕਪਾਹ ਦੀ ਬਿਜਾਈ ਕਦੋਂ ਕਰੀਏ?,sowing_time
+ਗੰਨਾ ਕਦੋਂ ਬੀਜਣਾ ਚਾਹੀਦਾ ਹੈ?,sowing_time
+ਕਣਕ ਦੀ ਫਸਲ ਕਦੋਂ ਵੱਢੀਏ?,harvesting_time
+ਕਣਕ ਦੀ ਵਾਢੀ ਕਦੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ?,harvesting_time
+ਝੋਨੇ ਦੀ ਵਾਢੀ ਕਦੋਂ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?,harvesting_time
+ਆਲੂ ਕਦੋਂ ਪੁੱਟਣੇ ਹਨ?,harvesting_time
+ਸਰ੍ਹੋਂ ਦੀ ਕਟਾਈ ਦਾ ਸਮਾਂ ਕੀ ਹੈ?,harvesting_time
+ਝੋਨੇ ਨੂੰ ਕਿੰਨੀ ਵਾਰ ਪਾਣੀ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ?,irrigation
+ਝੋਨੇ ਨੂੰ ਕਿੰਨਾ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ?,irrigation
+ਝੋਨੇ ਵਿੱਚ ਪਾਣੀ ਕਦੋਂ ਲਾਈਏ?,irrigation
+ਕਣਕ ਨੂੰ ਪਹਿਲਾ ਪਾਣੀ ਕਦੋਂ ਦੇਣਾ ਹੈ?,irrigation
+ਕਣਕ ਨੂੰ ਕਿੰਨੇ ਪਾਣੀ ਚਾਹੀਦੇ ਹਨ?,irrigation
+ਕਣਕ ਨੂੰ ਕਿੰਨਾ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ?,irrigation
+ਮੱਕੀ ਨੂੰ ਪਾਣੀ ਕਦੋਂ ਲਗਾਈਏ?,irrigation
+ਮੱਕੀ ਨੂੰ ਕਿੰਨਾ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ?,irrigation
+ਕਪਾਹ ਨੂੰ ਪਾਣੀ ਦੇਣ ਦਾ ਸਹੀ ਸਮਾਂ ਕੀ ਹੈ?,irrigation
+ਫਸਲ ਨੂੰ ਕਿੰਨਾ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ?,irrigation
+ਝੋਨੇ ਲਈ ਪਾਣੀ ਦੀ ਲੋੜ ਕਿੰਨੀ ਹੈ?,irrigation
+ਮੇਰੇ ਕਣਕ ਦੇ ਪੱਤੇ ਪੀਲੇ ਹੋ ਰਹੇ ਹਨ,crop_disease
+ਕਣਕ ਦੇ ਪੱਤੇ ਪੀਲੇ ਪੈ ਰਹੇ ਹਨ ਕੀ ਕਰਾਂ?,crop_disease
+ਝੋਨੇ ਦੇ ਪੱਤੇ ਸੁੱਕ ਰਹੇ ਹਨ,crop_disease
+ਝੋਨੇ ਵਿੱਚ ਧੱਬੇ ਪੈ ਰਹੇ ਹਨ,crop_disease
+ਆਲੂਆਂ ਦੇ ਪੱਤੇ ਝੁਲਸ ਰਹੇ ਹਨ,crop_disease
+ਮੱਕੀ ਦੇ ਪੱਤੇ ਖਰਾਬ ਹੋ ਰਹੇ ਹਨ,crop_disease
+ਕਪਾਹ ਦੇ ਪੱਤੇ ਲਾਲ ਹੋ ਰਹੇ ਹਨ,crop_disease
+ਮੇਰੇ ਕਪਾਹ ਦੇ ਪੌਦੇ ਵਿੱਚ ਕੀੜੇ ਲੱਗ ਗਏ ਹਨ,pest_control
+ਕਣਕ ਵਿੱਚ ਸੁੰਡੀ ਲੱਗ ਗਈ ਹੈ,pest_control
+ਝੋਨੇ ਵਿੱਚ ਕੀੜਾ ਪੈ ਗਿਆ,pest_control
+ਮੱਕੀ ਵਿੱਚ ਫਾਲ ਆਰਮੀਵਰਮ ਆ ਗਿਆ,pest_control
+ਗੰਨੇ ਵਿੱਚ ਸੁੰਡੀ ਦਾ ਕੀ ਇਲਾਜ ਹੈ?,pest_control
+ਸਰ੍ਹੋਂ ਤੇ ਚੇਪਾ ਲੱਗ ਗਿਆ ਹੈ,pest_control
+ਖੇਤ ਦੀ ਮਿੱਟੀ ਦੀ ਜਾਂਚ ਕਿਵੇਂ ਕਰੀਏ?,soil
+ਕਣਕ ਲਈ ਕਿਹੜੀ ਮਿੱਟੀ ਵਧੀਆ ਹੈ?,soil
+ਝੋਨੇ ਲਈ ਜ਼ਮੀਨ ਕਿਵੇਂ ਤਿਆਰ ਕਰੀਏ?,soil
+ਆਲੂ ਲਈ ਕਿਹੋ ਜਿਹੀ ਮਿੱਟੀ ਚਾਹੀਦੀ ਹੈ?,soil
+ਕਣਕ ਲਈ ਕਿਹੜੀ ਖਾਦ ਠੀਕ ਹੈ?,fertilizer
+ਝੋਨੇ ਵਿੱਚ ਯੂਰੀਆ ਕਦੋਂ ਪਾਈਏ?,fertilizer
+ਮੱਕੀ ਵਿੱਚ ਕਿੰਨੀ ਖਾਦ ਪਾਈਏ?,fertilizer
+ਕਪਾਹ ਵਿੱਚ DAP ਕਿੰਨੀ ਪਾਈਏ?,fertilizer
+ਕੀ ਮੈਂ ਆਲੂਆਂ ਵਿੱਚ ਪੋਟਾਸ਼ ਪਾ ਸਕਦਾ ਹਾਂ?,fertilizer
+ਅੱਜ ਮੌਸਮ ਕਿਵੇਂ ਦਾ ਰਹੇਗਾ?,weather
+ਕੀ ਅੱਜ ਮੀਂਹ ਪਏਗਾ?,weather
+ਕੱਲ੍ਹ ਦਾ ਮੌਸਮ ਕਿਹੋ ਜਿਹਾ ਹੈ?,weather
+ਮੀਂਹ ਪੈਣ ਦੀ ਕੋਈ ਸੰਭਾਵਨਾ ਹੈ?,weather
+ਕਣਕ ਦਾ ਭਾਅ ਕੀ ਚੱਲ ਰਿਹਾ ਹੈ?,mandi_price
+ਝੋਨੇ ਦਾ ਅੱਜ ਦਾ ਰੇਟ ਕੀ ਹੈ?,mandi_price
+ਮੰਡੀ ਵਿੱਚ ਨਰਮੇ ਦਾ ਕੀ ਭਾਅ ਹੈ?,mandi_price
+ਸਰ੍ਹੋਂ ਕਿਸ ਰੇਟ ਤੇ ਵਿਕ ਰਹੀ ਹੈ?,mandi_price
+ਸਤ ਸ੍ਰੀ ਅਕਾਲ,greeting
+ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਜੀ,greeting
+ਹੈਲੋ,greeting
+ਕੀ ਹਾਲ ਹੈ,greeting
+ਤੁਹਾਡਾ ਧੰਨਵਾਦ,thanks
+ਬਹੁਤ ਬਹੁਤ ਮਿਹਰਬਾਨੀ,thanks
+ਸ਼ੁਕਰੀਆ,thanks
+ਚੰਗਾ ਜੀ,goodbye
+ਫਿਰ ਮਿਲਦੇ ਹਾਂ,goodbye
+ਕਣਕ ਦੀ ਫਸਲ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿਓ,crop_information
+ਝੋਨੇ ਬਾਰੇ ਦੱਸੋ,crop_information
+ਮੈਨੂੰ ਆਲੂਆਂ ਦੀ ਖੇਤੀ ਬਾਰੇ ਜਾਣਨਾ ਹੈ,crop_information
+ਕਣਕ ਦੀ ਪੈਦਾਵਾਰ ਕਿਵੇਂ ਵਧਾਈਏ?,crop_yield
+ਝੋਨੇ ਦਾ ਝਾੜ ਕਿਵੇਂ ਵਧੇਗਾ?,crop_yield
+ਖੇਤੀਬਾੜੀ ਦੀਆਂ ਨਵੀਆਂ ਸਕੀਮਾਂ ਕਿਹੜੀਆਂ ਹਨ?,government_scheme
+ਸਰਕਾਰ ਵੱਲੋਂ ਕਿਸਾਨਾਂ ਲਈ ਕੋਈ ਸਬਸਿਡੀ ਹੈ?,government_scheme
+ਸਬਸਿਡੀ ਕਿਵੇਂ ਲਈਏ?,government_scheme
+ਪਰਾਲੀ ਨੂੰ ਅੱਗ ਲਗਾਉਣੀ ਚਾਹੀਦੀ ਹੈ ਜਾਂ ਨਹੀਂ?,farming_practice
+ਪਰਾਲੀ ਦਾ ਹੱਲ ਕਿਵੇਂ ਕਰੀਏ?,farming_practice
+ਜੈਵਿਕ ਖੇਤੀ ਕਿਵੇਂ ਕਰੀਏ?,farming_practice
+ਵਧੀਆ ਬੀਜ ਕਿੱਥੋਂ ਮਿਲੇਗਾ?,crop_selection
+ਕਿਹੜੀ ਫਸਲ ਬੀਜਣੀ ਫਾਇਦੇਮੰਦ ਰਹੇਗੀ?,crop_selection
+ਕਣਕ ਦਾ ਝਾੜ ਕਿੰਨਾ ਹੋਵੇਗਾ?,crop_yield
+ਮੱਕੀ ਦੀ ਪੈਦਾਵਾਰ ਕਿੰਨੀ ਹੁੰਦੀ ਹੈ?,crop_yield
+ਯੂਰੀਆ ਖਾਦ ਦੇ ਕੀ ਫਾਇਦੇ ਹਨ?,fertilizer
+ਡੀ ਏ ਪੀ (DAP) ਖਾਦ ਕਿੱਥੇ ਪਾਈਏ?,fertilizer
+ਕਣਕ ਨੂੰ ਆਖਰੀ ਪਾਣੀ ਕਦੋਂ ਦੇਣਾ ਹੈ?,irrigation
+ਮੇਰੇ ਝੋਨੇ ਵਿੱਚ ਨਦੀਨ ਹੋ ਗਏ ਹਨ,pest_control
+ਨਦੀਨ ਨਾਸ਼ਕ ਕਿਹੜਾ ਵਰਤੀਏ?,pest_control
+ਸਰ੍ਹੋਂ ਦੇ ਪੱਤੇ ਪੀਲੇ ਕਿਉਂ ਹੋ ਰਹੇ ਹਨ?,crop_disease
+ਗੰਨੇ ਦੇ ਪੱਤੇ ਸੁੱਕ ਰਹੇ ਹਨ ਕੀ ਕਰਾਂ?,crop_disease
+ਕਣਕ ਦੀ ਬਿਜਾਈ ਕਰਨ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?,farming_practice
+ਆਲੂ ਦੀ ਪੈਦਾਵਾਰ ਵਧਾਉਣ ਦੇ ਤਰੀਕੇ,crop_yield
+ਕਣਕ ਬੀਜਣ ਲਈ ਜ਼ਮੀਨ ਦੀ ਤਿਆਰੀ,soil
+ਝੋਨੇ ਦੇ ਕੀੜਿਆਂ ਤੋਂ ਬਚਾਅ,pest_control
+ਕਪਾਹ ਦੀ ਚੁਗਾਈ ਕਦੋਂ ਕਰੀਏ?,harvesting_time
+ਸਤਿਕਾਰਯੋਗ,greeting
+ਮਿਹਰਬਾਨੀ ਜੀ,thanks
+ਬਾਈ ਜੀ ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ,greeting
+When should wheat be sown?,sowing_time
+My wheat leaves are turning yellow,crop_disease
+What is the price of paddy today?,mandi_price
+Will it rain tomorrow?,weather
+How much urea for wheat?,fertilizer
+Thank you very much,thanks
+Hello bot,greeting
+How to increase wheat yield?,crop_yield
+Best time to harvest mustard?,harvesting_time
+Pests in my cotton crop,pest_control
+ਮੇਰੀ wheat crop ਦੇ leaves yellow ਹੋ ਰਹੇ ਨੇ ਕੀ ਕਰਾਂ?,crop_disease
+Paddy ਵਿੱਚ ਕਿੰਨੀ fertilizer ਪਾਈਏ?,fertilizer
+Wheat ਦੀ sowing ਕਦੋਂ ਕਰੀਏ?,sowing_time
+ਆਲੂ ਦੀ harvesting ਕਦੋਂ ਹੁੰਦੀ ਹੈ?,harvesting_time
+Cotton ਦਾ price ਕੀ ਹੈ?,mandi_price
+Rain ਪੈਣ ਦੇ chances ਨੇ?,weather
+Crop ਦਾ yield ਵਧਾਉਣ ਲਈ ਦੱਸੋ,crop_yield
+ਮਿੱਟੀ check ਕਰਵਾਉਣੀ ਹੈ,soil
+Government scheme for farmers,government_scheme
+Subsidy on tractors,government_scheme
+Organic farming,farming_practice
+Stubble burning,farming_practice
+What crop to plant in Kharif?,crop_selection
+Rabi crops information,crop_information
+Sugarcane farming,crop_information
+Maize sowing time,sowing_time
+Potato blight disease,crop_disease
+Wheat rust problem,crop_disease
+Aphids on mustard,pest_control
+Whitefly on cotton,pest_control
+Urea application time,fertilizer
+NPK fertilizer dosage,fertilizer
+First irrigation for wheat,irrigation
+Watering schedule for rice,irrigation
+Harvesting sugarcane,harvesting_time
+Yield of cotton per acre,crop_yield
+Soil testing laboratory,soil
+Soil pH for potato,soil
+Seed treatment for wheat,farming_practice
+Weed control in paddy,pest_control
+Weedicide spray,pest_control
+ਮੌਸਮ ਵਿਭਾਗ ਦੀ ਰਿਪੋਰਟ,weather
+ਕੱਲ੍ਹ ਮੀਂਹ ਆਉਗਾ?,weather
+ਮੰਡੀ ਵਿਚ ਕਣਕ ਦਾ ਰੇਟ,mandi_price
+ਝੋਨੇ ਦਾ ਭਾਅ 2024,mandi_price
+ਕਪਾਹ ਦੀ ਬਿਜਾਈ,sowing_time
+ਨਰਮੇ ਦੀ ਖੇਤੀ,crop_information
+ਸਰ੍ਹੋਂ ਦਾ ਤੇਲ,general_agriculture
+ਦਾਲਾਂ ਦੀ ਖੇਤੀ,crop_information
+ਸਬਜ਼ੀਆਂ ਕਿਵੇਂ ਬੀਜੀਏ,crop_information
+ਟਮਾਟਰ ਵਿੱਚ ਬਿਮਾਰੀ,crop_disease
+ਮਿਰਚਾਂ ਨੂੰ ਕੀੜਾ,pest_control
+ਪਿਆਜ਼ ਦੀ ਖੇਤੀ,crop_information
+ਛੋਲਿਆਂ ਦੀ ਬਿਜਾਈ,sowing_time
+ਮੂੰਗੀ ਕਦੋਂ ਬੀਜੀਏ,sowing_time
+ਮਾਂਹ ਦੀ ਖੇਤੀ,crop_information
+ਫਲਦਾਰ ਬੂਟੇ,general_agriculture
+ਬਾਗਬਾਨੀ ਸਕੀਮ,government_scheme
+ਕਿਸਾਨ ਮੇਲਾ ਕਦੋਂ ਹੈ?,general_agriculture
+ਮਿੱਟੀ ਪਰਖ ਲੈਬ,soil
+ਜ਼ਮੀਨ ਦੀ ਤਾਕਤ,soil
+ਰੂੜੀ ਦੀ ਖਾਦ,fertilizer
+ਹਰੀ ਖਾਦ ਦੇ ਫਾਇਦੇ,fertilizer
+ਪਾਣੀ ਦੀ ਬਚਤ ਕਿਵੇਂ ਕਰੀਏ,irrigation
+ਤੁਪਕਾ ਸਿੰਚਾਈ,irrigation
+ਫੁਹਾਰਾ ਸਿੰਚਾਈ,irrigation
+ਝੋਨੇ ਦੀ ਸਿੱਧੀ ਬਿਜਾਈ (DSR),farming_practice
+ਜ਼ੀਰੋ ਟਿੱਲ ਡਰਿੱਲ,farming_practice
+ਰੋਟਾਵੇਟਰ,farming_practice
+ਟਰੈਕਟਰ,general_agriculture
+ਕੰਬਾਈਨ,general_agriculture
+ਵਾਢੀ ਦੀਆਂ ਮਸ਼ੀਨਾਂ,general_agriculture
+ਕਿਸਾਨ ਕਰਜ਼ਾ ਮਾਫੀ,government_scheme
+ਫਸਲ ਬੀਮਾ ਯੋਜਨਾ,government_scheme
+PM ਕਿਸਾਨ ਸਨਮਾਨ ਨਿਧੀ,government_scheme
+ਪੰਜਾਬ ਐਗਰੀਕਲਚਰਲ ਯੂਨੀਵਰਸਿਟੀ ਲੁਧਿਆਣਾ,general_agriculture
+KVK ਦਾ ਨੰਬਰ,general_agriculture
+ਖੇਤੀਬਾੜੀ ਅਫਸਰ,general_agriculture
+ਪਸ਼ੂ ਪਾਲਣ ਬਾਰੇ,general_agriculture
+ਡੇਅਰੀ ਫਾਰਮਿੰਗ,general_agriculture
+ਮੱਛੀ ਪਾਲਣ,general_agriculture
+ਮੁਰਗੀ ਪਾਲਣ,general_agriculture
+ਮਧੂ ਮੱਖੀ ਪਾਲਣ,general_agriculture
+ਖੁੰਬਾਂ ਦੀ ਖੇਤੀ,general_agriculture
+ਕਣਕ ਦਾ ਬੀਜ ਕਿਹੜਾ ਵਧੀਆ ਹੈ,crop_selection
+ਝੋਨੇ ਦੀਆਂ ਕਿਸਮਾਂ,crop_selection
+PR 126 ਝੋਨਾ,crop_selection
+PBW 826 ਕਣਕ,crop_selection
+HD 3086 ਕਣਕ,crop_selection
+ਕਪਾਹ ਦਾ ਬੀਜ,crop_selection
+ਬੀਟੀ ਕਾਟਨ,crop_selection
+ਆਲੂ ਦੀ ਕਿਸਮ,crop_selection
+ਮੱਕੀ ਦਾ ਬੀਜ,crop_selection
+ਸਾਈਲੇਜ ਬਣਾਉਣ ਦਾ ਤਰੀਕਾ,farming_practice
+ਪਸ਼ੂਆਂ ਲਈ ਚਾਰਾ,general_agriculture
+ਬਰਸੀਮ ਕਦੋਂ ਬੀਜੀਏ,sowing_time
+ਜਵੀ ਦੀ ਖੇਤੀ,crop_information
+ਬਾਜਰਾ,crop_information
+ਜਵਾਰ,crop_information
+ਗੁਆਰਾ,crop_information
+ਕਣਕ ਵਿੱਚ ਗੁੱਲੀ ਡੰਡਾ,pest_control
+ਬਾਥੂ,pest_control
+ਜੰਗਲੀ ਜਵੀ,pest_control
+ਚੂਹਿਆਂ ਦੀ ਰੋਕਥਾਮ,pest_control
+ਸਿਉਂਕ ਦਾ ਇਲਾਜ,pest_control
+ਸੁੰਡੀ ਮਾਰਨ ਵਾਲੀ ਦਵਾਈ,pest_control
+ਉੱਲੀ ਨਾਸ਼ਕ,pest_control
+ਸਪਰੇਅ ਕਰਨ ਦਾ ਸਮਾਂ,farming_practice
+ਸਪਰੇਅ ਕਿਵੇਂ ਕਰੀਏ,farming_practice
+ਦਵਾਈ ਦੀ ਮਾਤਰਾ,general_agriculture
+ਖੇਤੀ ਵਿੱਚ ਮੁਨਾਫਾ,general_agriculture
+ਕਿਸਾਨਾਂ ਦੀ ਆਮਦਨ,general_agriculture
+ਖੇਤੀ ਖਰਚੇ ਕਿਵੇਂ ਘਟਾਈਏ,farming_practice
+ਖੇਤੀ ਦੇ ਸੰਦ,general_agriculture
+ਮਸ਼ੀਨਰੀ ਤੇ ਸਬਸਿਡੀ,government_scheme
+ਕਿਸਾਨ ਕ੍ਰੈਡਿਟ ਕਾਰਡ (KCC),government_scheme
+ਜ਼ਮੀਨ ਦਾ ਰਿਕਾਰਡ,general_agriculture
+ਫਰਦ ਕਿਵੇਂ ਕੱਢੀਏ,general_agriculture
+ਪਟਵਾਰੀ,general_agriculture
+ਨਹਿਰੀ ਪਾਣੀ ਦੀ ਵਾਰੀ,irrigation
+ਮੋਟਰ ਦਾ ਬਿੱਲ,general_agriculture
+ਸੋਲਰ ਪੰਪ,irrigation
+ਬਿਜਲੀ ਦੀ ਸਪਲਾਈ,general_agriculture
+ਖੇਤੀਬਾੜੀ ਲੋਨ,government_scheme
+ਖੇਤੀਬਾੜੀ ਨੀਤੀ,government_scheme
+ਕਣਕ ਦੀ ਖਰੀਦ,mandi_price
+ਝੋਨੇ ਦੀ ਸਰਕਾਰੀ ਖਰੀਦ,mandi_price
+MSP ਕੀ ਹੈ?,mandi_price
+ਘੱਟੋ-ਘੱਟ ਸਮਰਥਨ ਮੁੱਲ,mandi_price
+ਆੜ੍ਹਤੀਆ,general_agriculture
+ਮੰਡੀ ਬੋਰਡ,general_agriculture
+FCI,general_agriculture
+ਕਣਕ ਵਿੱਚ ਕਾਂਗਿਆਰੀ,crop_disease
+ਝੋਨੇ ਵਿੱਚ ਝੁਲਸ ਰੋਗ,crop_disease
+ਆਲੂ ਵਿੱਚ ਪਿਛੇਤਾ ਝੁਲਸ ਰੋਗ,crop_disease
+ਕਪਾਹ ਵਿੱਚ ਪੱਤਾ ਮਰੋੜ ਬਿਮਾਰੀ,crop_disease
+ਸਰ੍ਹੋਂ ਵਿੱਚ ਤਣਾ ਗਲਣਾ,crop_disease
+ਮੱਕੀ ਦਾ ਗੰਦੂਆ,crop_disease
+ਗੰਨੇ ਦਾ ਰੱਤਾ ਰੋਗ,crop_disease
+ਮੂੰਗਫਲੀ ਦੀ ਖੇਤੀ,crop_information
+ਤਿਲਾਂ ਦੀ ਖੇਤੀ,crop_information
+ਸੂਰਜਮੁਖੀ,crop_information
+ਸੋਇਆਬੀਨ,crop_information
+ਅਰਹਰ ਦੀ ਖੇਤੀ,crop_information
+ਛੋਲੇ ਬੀਜਣੇ ਹਨ,sowing_time
+ਮਸਰ,crop_information
+ਰਾਜਮਾਂਹ,crop_information
+ਮਟਰ ਦੀ ਖੇਤੀ,crop_information
+ਗੋਭੀ,crop_information
+ਭਿੰਡੀ,crop_information
+ਕੱਦੂ,crop_information
+ਤੋਰੀ,crop_information
+ਖੀਰਾ,crop_information
+ਖਰਬੂਜਾ,crop_information
+ਤਰਬੂਜ,crop_information
+ਕਣਕ ਪੱਕਣ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਦਾ ਹੈ?,harvesting_time
+ਝੋਨੇ ਦੀ ਪਨੀਰੀ ਕਿੰਨੇ ਦਿਨਾਂ ਵਿੱਚ ਤਿਆਰ ਹੁੰਦੀ ਹੈ?,farming_practice
+ਬੀਜ ਦੀ ਸੋਧ ਕਿਵੇਂ ਕਰੀਏ?,farming_practice
+ਮਿੱਟੀ ਦਾ ਨਮੂਨਾ ਲੈਣ ਦਾ ਤਰੀਕਾ,soil
+ਮਿੱਟੀ ਵਿੱਚ ਜ਼ਿੰਕ ਦੀ ਘਾਟ,soil
+ਕਣਕ ਵਿੱਚ ਸਲਫਰ ਦੀ ਵਰਤੋਂ,fertilizer
+ਝੋਨੇ ਵਿੱਚ ਲੋਹੇ ਦੀ ਘਾਟ,soil
+ਪੱਤਿਆਂ ਦਾ ਰੰਗ ਮਾਪਣ ਵਾਲਾ ਕਾਰਡ (PAU LCC),farming_practice
+ਖੇਤੀਬਾੜੀ ਮੈਗਜ਼ੀਨ,general_agriculture
+ਕਿਸਾਨ ਐਪਸ,general_agriculture
+ਖੇਤੀਬਾੜੀ ਯੂਟਿਊਬ ਚੈਨਲ,general_agriculture
+ਡਰੋਨ ਨਾਲ ਸਪਰੇਅ,farming_practice
+ਸਮਾਰਟ ਖੇਤੀ,farming_practice
+ਸੈਂਸਰ,general_agriculture
+ਮੌਸਮ ਕੇਂਦਰ,weather
+ਤਾਪਮਾਨ ਕਿੰਨਾ ਹੈ?,weather
+ਹਵਾ ਦੀ ਗਤੀ,weather
+ਨਮੀ ਕਿੰਨੀ ਹੈ?,weather
+ਕਣਕ ਦਾ ਸਟੋਰੇਜ,farming_practice
+ਗੋਦਾਮ,general_agriculture
+ਕੋਲਡ ਸਟੋਰ,general_agriculture
+ਸੈਲੋ,general_agriculture
+ਕਣਕ ਵਿੱਚ ਘੁਣ ਲੱਗ ਗਿਆ,pest_control
+ਅਨਾਜ ਦੀ ਸਾਂਭ ਸੰਭਾਲ,farming_practice
+ਬੀਜ ਬਚਾਉਣਾ,farming_practice
+ਕਿਸਾਨਾਂ ਲਈ ਸਲਾਹ,general_agriculture
+ਅੱਜ ਦੀਆਂ ਖੇਤੀ ਖਬਰਾਂ,general_agriculture
+ਮੇਰੀ ਫਸਲ ਖਰਾਬ ਹੋ ਗਈ,crop_disease
+ਮੈਨੂੰ ਮਦਦ ਦੀ ਲੋੜ ਹੈ,general_agriculture
+ਕ੍ਰਿਸ਼ੀ ਸਹਾਇਕ ਕੀ ਕਰ ਸਕਦਾ ਹੈ?,general_agriculture
+ਤੁਸੀਂ ਕੌਣ ਹੋ?,greeting
+What can you do?,general_agriculture
+How to use this chatbot?,general_agriculture
+Agriculture tips,farming_practice
+Best farming methods,farming_practice
+I need help with my farm,general_agriculture
+Farm machinery,general_agriculture
+Tractor implements,general_agriculture
+Agriculture news,general_agriculture
+Daily weather update,weather
+Market rates today,mandi_price
+Mandi prices Punjab,mandi_price
+Farming subsidies Punjab,government_scheme
+PAU recommendations,general_agriculture
+Kisan Mela Ludhiana,general_agriculture
+Dairy farming guide,general_agriculture
+Poultry farming tips,general_agriculture
+Fish farming,general_agriculture
+Bee keeping,general_agriculture
+Mushroom cultivation,general_agriculture
+Organic farming certification,farming_practice
+Soil health card,soil
+Vermicompost making,fertilizer
+Green manure crops,fertilizer
+Drip irrigation subsidy,government_scheme
+Solar pump connection,government_scheme
+Crop insurance claim,government_scheme
+Kisan credit card apply,government_scheme
+Land records Punjab,general_agriculture
+Jamabandi nakal,general_agriculture
+Canal water schedule,irrigation
+Electricity supply hours for agriculture,general_agriculture
+Agriculture loan interest rate,government_scheme
+MSP for wheat 2024,mandi_price
+Procurement of paddy,mandi_price
+Arhtiya commission,general_agriculture
+Mandi board fee,general_agriculture
+FCI godowns,general_agriculture
+Wheat storage silos,general_agriculture
+Cold storage for potatoes,general_agriculture
+Grain preservation,farming_practice
+Seed saving techniques,farming_practice
+Farmer advice,general_agriculture
+Agriculture experts,general_agriculture
+Helpline number for farmers,general_agriculture
+Kisan call center,general_agriculture
+Toll free number agriculture,general_agriculture
+Agronomy,general_agriculture
+Plant pathology,general_agriculture
+Entomology,general_agriculture
+Soil science,general_agriculture
+Agricultural economics,general_agriculture
+Agricultural engineering,general_agriculture
+Extension education,general_agriculture
+Agroforestry,general_agriculture
+Horticulture,general_agriculture
+Floriculture,general_agriculture
+Landscaping,general_agriculture
+Olericulture,general_agriculture
+Pomology,general_agriculture
+Spices and condiments,general_agriculture
+Medicinal and aromatic plants,general_agriculture
+Post harvest technology,general_agriculture
+Food processing,general_agriculture
+Value addition in agriculture,general_agriculture
+Agri business management,general_agriculture
+Agricultural marketing,general_agriculture
+Agricultural meteorology,general_agriculture
+Agricultural statistics,general_agriculture
+Plant breeding and genetics,general_agriculture
+Seed technology,general_agriculture
+Plant physiology,general_agriculture
+Agricultural microbiology,general_agriculture
+Biotechnology in agriculture,general_agriculture
+Environmental science,general_agriculture
+Natural resource management,general_agriculture
+Water management,general_agriculture
+Dryland agriculture,general_agriculture
+Rainfed agriculture,general_agriculture
+Irrigated agriculture,general_agriculture
+Precision agriculture,general_agriculture
+Conservation agriculture,general_agriculture
+Sustainable agriculture,general_agriculture
+Integrated farming system,general_agriculture
+Integrated nutrient management,general_agriculture
+Integrated pest management,general_agriculture
+Integrated weed management,general_agriculture
+Integrated disease management,general_agriculture
+Good agricultural practices,general_agriculture
+Climate resilient agriculture,general_agriculture
+Climate change and agriculture,general_agriculture
+Global warming and agriculture,general_agriculture
+Greenhouse gases and agriculture,general_agriculture
+Carbon sequestration in soils,general_agriculture
+Carbon credits for farmers,general_agriculture
+Agricultural policies,government_scheme
+Agricultural reforms,general_agriculture
+Farmer protests,general_agriculture
+Minimum support price guarantee,government_scheme
+Swaminathan committee report,general_agriculture
+C2+50 formula,general_agriculture
+Agricultural subsidies debate,general_agriculture
+WTO and Indian agriculture,general_agriculture
+Free trade agreements and agriculture,general_agriculture
+Contract farming,general_agriculture
+Corporate farming,general_agriculture
+Cooperative farming,general_agriculture
+Farmer producer organizations (FPOs),general_agriculture
+Self help groups (SHGs),general_agriculture
+Women in agriculture,general_agriculture
+Youth in agriculture,general_agriculture
+Rural development,general_agriculture
+Panchayati raj and agriculture,general_agriculture
+Village economy,general_agriculture
+Rural infrastructure,general_agriculture
+Rural electrification,general_agriculture
+Rural roads,general_agriculture
+Rural markets,general_agriculture
+Rural godowns,general_agriculture
+Rural credit,general_agriculture
+Rural indebtedness,general_agriculture
+Farmer suicides,general_agriculture
+Agrarian crisis,general_agriculture
+Agrarian distress,general_agriculture
+Agricultural distress,general_agriculture
+Agricultural crisis,general_agriculture
+Farming crisis,general_agriculture
+Farming distress,general_agriculture
+Agriculture in Punjab,general_agriculture
+Punjab agriculture model,general_agriculture
+Green revolution in Punjab,general_agriculture
+Post green revolution Punjab,general_agriculture
+Agricultural diversification in Punjab,general_agriculture
+Crop diversification in Punjab,general_agriculture
+Water crisis in Punjab,irrigation
+Groundwater depletion in Punjab,irrigation
+Soil degradation in Punjab,soil
+Environmental issues in Punjab agriculture,general_agriculture
+Future of agriculture in Punjab,general_agriculture
+Sustainable agriculture in Punjab,general_agriculture
+Organic farming in Punjab,farming_practice
+Natural farming in Punjab,farming_practice
+Zero budget natural farming in Punjab,farming_practice

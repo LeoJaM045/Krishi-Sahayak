@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+scikit-learn
+pandas
+numpy
+joblib
+deep-translator
+pytest
+httpx>=0.27.0
+pydantic
