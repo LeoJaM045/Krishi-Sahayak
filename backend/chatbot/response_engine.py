@@ -19,14 +19,42 @@ class ResponseEngine:
                 self.knowledge = json.load(f)
 
     def generate_response(self, text: str, conversation_context=None):
-        analysis = analyze_text(text)
-        
-        # If English, we only want to analyze intent after translation or handling it
-        if analysis["language"] == "english":
+        original_analysis = analyze_text(text)
+        analysis = original_analysis
+        original_language = original_analysis["language"]
+
+        # English / mixed: translate for the Punjabi-trained intent model, but keep
+        # entities found in the original text (e.g. crop names like "wheat").
+        if original_language in ("english", "mixed"):
             punjabi_text = translate_to_punjabi(text)
-            analysis = analyze_text(punjabi_text)
-            analysis["language"] = "english" # preserve original language
-            
+            if punjabi_text and punjabi_text != text:
+                analysis = analyze_text(punjabi_text)
+
+            merged_entities = dict(original_analysis.get("entities") or {})
+            merged_entities.update(analysis.get("entities") or {})
+            analysis["entities"] = merged_entities
+
+            # Keep stronger / social intent signal from the original English text
+            orig_intent = original_analysis["intent"]
+            if orig_intent in ("greeting", "thanks", "goodbye") or (
+                original_analysis["confidence"] > analysis["confidence"]
+                and orig_intent != "general_agriculture"
+            ):
+                analysis["intent"] = orig_intent
+                analysis["confidence"] = max(
+                    analysis["confidence"], original_analysis["confidence"]
+                )
+            elif (
+                analysis["intent"] == "general_agriculture"
+                and orig_intent != "general_agriculture"
+            ):
+                analysis["intent"] = orig_intent
+                analysis["confidence"] = max(
+                    analysis["confidence"], original_analysis["confidence"]
+                )
+
+            analysis["language"] = original_language
+
         intent = analysis["intent"]
         confidence = analysis["confidence"]
         entities = analysis["entities"]

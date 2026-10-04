@@ -57,17 +57,28 @@ const NLPAnalysis = ({ nlp }) => {
   );
 };
 
+const hasGurmukhi = (text = '') => /[\u0A00-\u0A7F]/.test(text);
+
 const Message = ({ msg, translateAll }) => {
   const isBot = msg.sender === 'bot';
   const [translated, setTranslated] = useState(null);
   const [autoTranslated, setAutoTranslated] = useState(null);
   const [translating, setTranslating] = useState(false);
+  const [translateError, setTranslateError] = useState(null);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
     if (translateAll) {
+      // Skip API call when the message is already English (no Gurmukhi)
+      if (!hasGurmukhi(msg.text)) {
+        setAutoTranslated(null);
+        setTranslateError(null);
+        setTranslating(false);
+        return () => { isMounted = false; };
+      }
       setTranslating(true);
+      setTranslateError(null);
       api.translate(msg.text, 'punjabi', 'english').then(res => {
         if (isMounted) {
           setAutoTranslated(res.translated_text || res.translatedText || msg.text);
@@ -77,28 +88,39 @@ const Message = ({ msg, translateAll }) => {
         console.error(e);
         if (isMounted) {
           setAutoTranslated(null);
+          setTranslateError('Translation unavailable');
           setTranslating(false);
         }
       });
     } else {
       setAutoTranslated(null);
       setTranslated(null);
+      setTranslateError(null);
     }
     return () => { isMounted = false; };
-  }, [translateAll, msg.id]);
+  }, [translateAll, msg.id, msg.text]);
 
   const handleTranslate = async () => {
     if (translated) {
       setTranslated(null);
+      setTranslateError(null);
       return;
     }
     setTranslating(true);
+    setTranslateError(null);
     try {
-      const targetLang = (msg.nlp?.language === 'english') ? 'punjabi' : 'english';
+      const looksEnglish = msg.nlp?.language === 'english' || !hasGurmukhi(msg.text);
+      const targetLang = looksEnglish ? 'punjabi' : 'english';
       const res = await api.translate(msg.text, 'auto', targetLang);
-      setTranslated(res.translated_text);
+      const next = res.translated_text || res.translatedText;
+      if (!next || next === msg.text) {
+        setTranslateError('Translation unavailable');
+      } else {
+        setTranslated(next);
+      }
     } catch (e) {
       console.error(e);
+      setTranslateError('Translation unavailable');
     }
     setTranslating(false);
   };
@@ -119,6 +141,10 @@ const Message = ({ msg, translateAll }) => {
             <p className="font-medium text-xs mb-1 opacity-70">Translation:</p>
             {autoTranslated || translated}
           </div>
+        )}
+
+        {translateError && (
+          <p className="mt-2 text-xs text-red-500">{translateError}</p>
         )}
 
         {isBot && (

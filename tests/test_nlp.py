@@ -37,3 +37,19 @@ def test_translation():
     # Dictionary-based translation should not depend on an external API.
     res = translate_to_english("ਕਣਕ")
     assert res.lower() == "wheat" or "wheat" in res.lower()
+
+def test_translation_phrases():
+    # English -> Punjabi phrase map (no substring corruption)
+    weather_pa = translate_to_punjabi("What is the weather today?")
+    assert "ਮੌਸਮ" in weather_pa
+    assert "ਮੈਂs" not in weather_pa
+
+    hello_pa = translate_to_punjabi("hello")
+    assert "ਸਤ" in hello_pa or "ਅਕਾਲ" in hello_pa
+
+
+def test_english_social_intents():
+    classifier = IntentClassifier()
+    assert classifier.predict("hello")["intent"] == "greeting"
+    assert classifier.predict("Thank you")["intent"] == "thanks"
+    assert classifier.predict("goodbye")["intent"] == "goodbye"

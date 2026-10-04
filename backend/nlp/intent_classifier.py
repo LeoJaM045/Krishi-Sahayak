@@ -1,4 +1,5 @@
 import os
+import re
 import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -12,6 +13,18 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'punjabi_inten
 # High-signal phrases used when the TF-IDF model is uncertain or falls back
 # to the majority class (general_agriculture).
 KEYWORD_INTENTS = [
+    ("greeting", [
+        "hello", "hi", "good morning", "good evening", "namaste", "sat sri akal",
+        "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "ਹੈਲੋ",
+    ]),
+    ("thanks", [
+        "thank you", "thanks", "thx",
+        "ਧੰਨਵਾਦ", "ਸ਼ੁਕਰੀਆ", "ਮਿਹਰਬਾਨੀ",
+    ]),
+    ("goodbye", [
+        "goodbye", "bye", "see you",
+        "ਫਿਰ ਮਿਲਦੇ", "ਰੱਬ ਰਾਖਾ",
+    ]),
     ("sowing_time", ["ਬਿਜਾਈ", "ਬੀਜਣ", "sow", "sowing", "nursery", "ਪਨੀਰੀ"]),
     ("harvesting_time", ["ਵਾਢੀ", "ਕਟਾਈ", "harvest", "harvesting"]),
     ("irrigation", ["ਸਿੰਚਾਈ", "ਪਾਣੀ", "irrigation", "watering"]),
@@ -37,14 +50,14 @@ class IntentClassifier:
         df = pd.read_csv(DATA_PATH)
         # Normalize text
         df['text'] = df['text'].apply(normalize_punjabi_text)
-        
+
         self.vectorizer = TfidfVectorizer(ngram_range=(1, 2))
         X = self.vectorizer.fit_transform(df['text'])
         y = df['intent']
-        
+
         self.model = LogisticRegression(random_state=42, max_iter=1000)
         self.model.fit(X, y)
-        
+
         joblib.dump(self.model, MODEL_PATH)
         joblib.dump(self.vectorizer, VECTORIZER_PATH)
         print("Model and Vectorizer saved successfully.")
@@ -59,8 +72,20 @@ class IntentClassifier:
     def _keyword_intent(self, normalized_text: str):
         best_intent = None
         best_hits = 0
+        haystacks = [h for h in {normalized_text, (normalized_text or "").lower()} if h]
         for intent, keywords in KEYWORD_INTENTS:
-            hits = sum(1 for kw in keywords if kw in normalized_text)
+            hits = 0
+            for kw in keywords:
+                kw_l = kw.lower().strip()
+                if not kw_l:
+                    continue
+                # Short ASCII tokens need word boundaries ("hi" must not match inside words)
+                if kw_l.isascii() and len(kw_l) <= 3:
+                    pattern = re.compile(rf"\b{re.escape(kw_l)}\b", re.IGNORECASE)
+                    if any(pattern.search(h) for h in haystacks):
+                        hits += 1
+                elif any(kw_l in h for h in haystacks):
+                    hits += 1
             if hits > best_hits:
                 best_hits = hits
                 best_intent = intent
@@ -69,21 +94,24 @@ class IntentClassifier:
     def predict(self, text: str):
         if not self.model or not self.vectorizer:
             self.train()
-            
+
         normalized_text = normalize_punjabi_text(text)
+        raw_lower = (text or "").lower().strip()
         X = self.vectorizer.transform([normalized_text])
-        
+
         probabilities = self.model.predict_proba(X)[0]
         max_prob_index = probabilities.argmax()
-        
+
         intent = self.model.classes_[max_prob_index]
         confidence = float(probabilities[max_prob_index])
 
-        hinted = self._keyword_intent(normalized_text)
-        if hinted and (intent == "general_agriculture" or confidence < 0.3):
+        # Prefer keyword hints for short English social phrases and weak model scores
+        hinted = self._keyword_intent(normalized_text) or self._keyword_intent(raw_lower)
+        short_social = hinted in {"greeting", "thanks", "goodbye"} and len(raw_lower.split()) <= 4
+        if hinted and (intent == "general_agriculture" or confidence < 0.3 or short_social):
             intent = hinted
             confidence = max(confidence, 0.55)
-        
+
         return {
             "intent": intent,
             "confidence": confidence
